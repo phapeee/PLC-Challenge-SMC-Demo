@@ -1,0 +1,9 @@
+{ "signal": [
+  { "name": "TRIGGER",         "wave": "0Px........0." },
+  { "name": "Window Time", "wave": "01.........0.", "node": ".A.........B"  },
+  { "name": "D_Actuator_1", "wave": "01.......0...", "node": ".C.......D"  },
+  { "name": "C_Actuator", "wave": "0..1...0.....", "node": "...E...F"  }
+],
+"edge": [ "A<->B WT_Turn", "C<->D T_D_Act", "E<->F T_C_Act", "C~->E T_Relay", "F-~>D T_Relay", "D-~>B T_End"],
+ "head": { "text": "Turntable Cycle is Active on TRIGGER's raising edge" },
+}

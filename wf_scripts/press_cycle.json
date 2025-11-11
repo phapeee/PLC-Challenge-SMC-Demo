@@ -1,0 +1,9 @@
+{ "signal": [
+  { "name": "TRIGGER",         "wave": "0Px........0." },
+  { "name": "Window Time", "wave": "01.........0.", "node": ".A.........B"  },
+  { "name": "Press", "wave": "01......0....", "node": ".C......D"  },
+  { "name": "Record", "wave": "0.......10...", "node": ".......EFG."  },
+],
+"edge": [ "A<->B WT_Pres", "C<->D T_Press", "D->F", "D-~>B T_End"],
+ "head": { "text": "Press Cycle is Active on TRIGGER's raising edge" },
+}

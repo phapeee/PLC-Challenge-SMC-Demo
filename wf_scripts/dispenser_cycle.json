@@ -1,0 +1,7 @@
+{ "signal": [
+  { "name": "TRIGGER",         "wave": "0Px.....0." },
+  { "name": "Dispenser", "wave": "01......0.", "node": ".A......B"  }
+],
+"edge": [ "A<->B T_Open"],
+"head": { "text": "Dispenser Opens during T_Open on TRIGGER's raising edge" },
+}

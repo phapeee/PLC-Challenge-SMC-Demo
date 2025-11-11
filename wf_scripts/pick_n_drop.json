@@ -1,0 +1,13 @@
+{ "signal": [
+  { "name": "TRIGGER",         "wave": "0Px...............0", "node": "..................M"},
+  { "name": "Extend E_Actuator", "wave": "01.0...............", "node": ".A.B"  },
+  { "name": "Retract E_Actuator", "wave": "0.........1.0......", "node": "..........G.H"  },
+  { "name": "F_Actuator", "wave": "0..1....0...1....0.", "node": "...C....D...I....J"  },
+  { "name": "Activate Vacuum Pad", "wave": "0....1.0...........", "node": ".....E.F"  },
+  { "name": "Deactivate Vacuum Pad", "wave": "0.............1.0..", "node": "..............K.L"  },
+],
+"edge": [ "A<->B T_E_Act", "B->C", "C<->D T_F_Act", "E<->F T_Vac", "C~->E T_F_Vac", "D-~>G T_Relay",
+"G<->H T_E_Act", "F-~>D T_Vac_F", "H->I", "I<->J T_F_Act", "K<->L T_Vac", "I~->K T_F_Vac", 
+  "L-~>J T_Vac_F", "J-~>M T_End"],
+ "head": { "text": "Pick and Drop Cycle is Active on TRIGGER's raising edge" },
+}
