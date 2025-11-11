@@ -24,14 +24,14 @@ Known how to use CODESYS and Simumatik.
 ## Demo Tasks (placeholders)
 Replace with your links and acceptance checks. Task 4 wording corrected to *small blue*.
 
-1. **Sorting metallic objects** — *(insert video link)*  
-2. **Sorting non‑metallic objects** — *(insert video link)*  
-3. **Sorting large blue objects** — *(insert video link)*  
-4. **Sorting small blue objects** — *(insert video link)*  
-5. **Sorting large metallic objects** — *(insert video link)*  
-6. **Sorting small metallic objects** — *(insert video link)*  
-7. **Sorting small white objects** — *(insert video link)*  
-8. **Sorting large white objects** — *(insert video link)*  
+1. **Sorting metallic objects** — [Demo Link](./Demo%20videos/PLC_SMC_metallic_demo/PLC_SMC_metallic_demo_player.html) 
+2. **Sorting non‑metallic objects** — [Demo Link](./Demo%20videos/PLC_SMC_non_metallic_demo/PLC_SMC_non_metallic_demo_player.html)  
+3. **Sorting large blue objects** — [Demo Link](./Demo%20videos/PLC_SMC_blue_large_demo/PLC_SMC_blue_large_demo_player.html)  
+4. **Sorting small blue objects** — [Demo Link](./Demo%20videos/PLC_SMC_blue_small_demo/PLC_SMC_blue_small_demo_player.html)  
+5. **Sorting large metallic objects** — [Demo Link](./Demo%20videos/PLC_SMC_large_metallic_demo/PLC_SMC_large_metallic_demo_player.html)  
+6. **Sorting small metallic objects** — [Demo Link](./Demo%20videos/PLC_SMC_small_metallic_demo/PLC_SMC_small_metallic_demo_player.html)  
+7. **Sorting small white objects** — [Demo Link](./Demo%20videos/PLC_SMC_white_small_demo/PLC_SMC_white_small_demo_player.html)  
+8. **Sorting large white objects** — [Demo Link](./Demo%20videos/PLC_SMC_white_large_demo/PLC_SMC_white_large_demo_player.html)  
 
 ## Quick Start
 1. Open the project **PLC Challenge - SMC Demo.project** in **CODESYS 3.5+**, and connect to the gateway.
