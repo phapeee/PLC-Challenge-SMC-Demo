@@ -21,6 +21,31 @@ Known how to use CODESYS and Simumatik.
 - **Digital outputs (QW0, bytes inverted)**: Dispenser, Press, Turntable (C, D_1), Manipulator (E/F), Vacuum ON/OFF.
 - **Analogue output**: `QW200` for beacon (or `QB200` if using 8‑bit pattern) — keep consistent.
 
+## PLC Code Blocks
+### Main Program
+![Main Program](Images/Main%20LD.png)
+### State Machine
+![State Machine Diagram](Images/PLC%20Sorting%20Cell%20-%20Control%20State%20Machine.png)
+![State Machine](Images/State%20Machine%20LD.png)
+### Reset Module
+![Reset Module](Images/Reset%20Module%20LD.png)
+### Output Controller Module
+![Output Controller Module](Images/Output%20Controller%20Module%20LD.png)
+### System Cycle
+![System Cycle](Images/System%20Cycle%20LD.png)
+### Turntable Module
+![Turntable Cycle](Images/Turntable%20Module%20LD.png)
+### Dispenser Module
+![Dispenser Module](Images/Dispenser%20Module%20LD.png)
+### Press Module
+![Press Module](Images/Press%20Module%20LD.png)
+### Sensors Module
+![Sensors Module](Images/Sensors%20Module%20LD.png)
+### Workpiece Identifier Module
+![Workpiece Identifier Module](Images/Workpiece%20Identifier%20Module%20LD.png)
+### Evacuation Manipulator Module
+![Evacuation Manipulator Module](Images/Evacuation%20Manipulator%20Module%20LD.png)
+
 ## Demo Tasks (placeholders)
 Replace with your links and acceptance checks. Task 4 wording corrected to *small blue*.
 
